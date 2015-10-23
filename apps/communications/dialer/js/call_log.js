@@ -18,7 +18,7 @@ var CallLog = {
       return;
     }
 
-    window.performance.mark('callLogStart');
+
     PerformanceTestingHelper.dispatch('start-call-log');
 
     this._initialized = true;
